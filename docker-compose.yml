@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  chat-room-fe:
+    build: .
+    ports:
+      - 8080:8080
+
+networks:
+  default:
+    name: chatroom
